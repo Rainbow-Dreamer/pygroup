@@ -876,7 +876,7 @@ once it is found, the identity of this group will be automatically settled.'
             if isgroup == True:
                 self.isgroup = True
             else:
-                'this function currently only works for finite groups, if you want to set this group\
+                return 'this function currently only works for finite groups, if you want to set this group\
                 to be used as a group, just add a True in this function\'s parameter'
 
         else:
