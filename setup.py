@@ -4,7 +4,7 @@ from os import path
 setup(
     name='pygroup',
     py_modules=['pygroup'],
-    version='0.14',
+    version='0.15',
     license='LGPLv2.1',
     description='This is a python module about group theory in math',
     author='Rainbow-Dreamer',
@@ -12,7 +12,7 @@ setup(
     install_requires=['polynomial', 'matrixpro'],
     url='https://github.com/Rainbow-Dreamer/pygroup',
     download_url=
-    'https://github.com/Rainbow-Dreamer/pygroup/archive/0.14.tar.gz',
+    'https://github.com/Rainbow-Dreamer/pygroup/archive/0.15.tar.gz',
     keywords=['group theory', 'mathematics', 'statistics'],
     classifiers=[
         'Development Status :: 3 - Alpha',
