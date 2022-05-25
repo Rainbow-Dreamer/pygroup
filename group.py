@@ -1,5 +1,6 @@
 # this is a module written for groups and sets in terms of mathematics
-import copy, sys, matrix, fractions, math, polynomial
+import copy, sys, fractions, math, polynomial
+import matrixpro as matrix
 
 
 def Z(n):
@@ -13,6 +14,7 @@ def U(n):
 
 
 def mod(ope, num):
+
     def add(x, y, number=num):
         return (x + y) % number
 
@@ -38,6 +40,7 @@ def D(n):
 
 
 class Map:
+
     def __init__(self, G1, G2, func):
         # a Map object takes two groups G1 and G2 and a mapping method,
         # which represents a map from G1 to G2 defined by a function func.
@@ -138,6 +141,7 @@ def identity(pol):
 
 
 class polygon:
+
     def __init__(self, size, info=None):
         self.size = size
         self.info = info
@@ -303,6 +307,7 @@ D{self.size}:\n{self.get_element()}'
 
 
 class permutation:
+
     def __init__(self, pdict):
         self.pdict = pdict
 
@@ -449,6 +454,7 @@ def composition(f1, f2, diffarg=False):
 
 
 class Set:
+
     def __init__(self, conditions=None, elements=None, description=None):
         if conditions is not None:
             try:
@@ -598,6 +604,7 @@ class group:
             of an element g in the group, the program will return a warning.
         
         '''
+
     def __init__(self,
                  element=None,
                  operation=None,
